@@ -1,0 +1,553 @@
+html,
+body,
+#outer,
+#inner,
+#main,
+.wrapper,
+.region,
+.dashboard,
+.index,
+.group,
+.module,
+.userstuff,
+.splash,
+.splash .module,
+.news,
+.favorite,
+.blurb,
+li.blurb,
+.work.meta.group,
+.bookmark.blurb {
+  background: #fff !important;
+  background-image: none !important;
+  color: #2a2a2a !important;
+}
+
+#header,
+#header .primary,
+#header ul.primary,
+#header .search,
+#header .navigation,
+#header .dropdown,
+#header .dropdown ul,
+#header .menu,
+#header .user,
+#header ul.user {
+  background: #900 !important;
+  background-image: none !important;
+  color: #fff !important;
+  border-color: #900 !important;
+}
+
+#header a,
+#header .primary a,
+#header .user a,
+#header .heading,
+#header .heading a {
+  color: #fff !important;
+  border-bottom: none !important;
+}
+
+#header .primary a:hover,
+#header .user a:hover,
+#header .dropdown a:hover {
+  background: #600 !important;
+}
+
+#footer,
+#footer .navigation {
+  background: #900 !important;
+  background-image: none !important;
+  color: #fff !important;
+}
+
+#footer a {
+  color: #fff !important;
+  border-bottom-color: #fff !important;
+}
+
+#dashboard,
+div#dashboard,
+.dashboard,
+.region#dashboard {
+  border-top: 0.5em solid #900 !important;
+  border-bottom: 0.5em solid #900 !important;
+  background: #fff !important;
+}
+
+#dashboard li.current a,
+#dashboard a:hover {
+  background: #ccc !important;
+  color: #2a2a2a !important;
+}
+
+.listbox,
+.listbox.group {
+  background: #ddd !important;
+  border: 1px solid #ccc !important;
+}
+
+.listbox .heading,
+.listbox h3,
+.listbox h3.heading,
+.listbox .heading a {
+  background: transparent !important;
+  background-image: none !important;
+  color: #2a2a2a !important;
+  border-color: transparent !important;
+}
+
+.listbox .index,
+.listbox .group,
+.listbox ul,
+.listbox li.blurb {
+  background: #fff !important;
+}
+
+.actions a,
+.actions a:link,
+.actions a:visited,
+.actions input,
+.actions button,
+a.action,
+.action,
+button,
+input[type="submit"],
+input[type="button"],
+.navigation.actions a,
+.pagination a,
+.pagination span {
+  background: #eee !important;
+  background-image: linear-gradient(#fff, #ddd) !important;
+  color: #444 !important;
+  border: 1px solid #bbb !important;
+  border-radius: 0.25em !important;
+}
+
+.actions a:hover,
+button:hover,
+input[type="submit"]:hover {
+  background-image: linear-gradient(#eee, #ccc) !important;
+  color: #000 !important;
+}
+
+.actions a.current,
+.actions .current,
+.pagination .current {
+  background: #bbb !important;
+  background-image: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  color: #2a2a2a !important;
+}
+
+a,
+a:link,
+.blurb a,
+.tags a,
+.heading a,
+h4.heading a {
+  color: #000 !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+a:visited {
+  color: #555 !important;
+  border-bottom-color: #555 !important;
+}
+
+a:hover,
+a:focus {
+  color: #900 !important;
+  border-bottom-color: #900 !important;
+}
+
+#header ul.primary li a,
+#header ul.user li a,
+#header .primary a,
+#header .user a,
+#header .navigation a,
+#header .actions a,
+#header .heading a,
+#header a,
+#header a:link,
+#header a:visited {
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-bottom: none !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+}
+
+#header a:hover,
+#header ul.primary li a:hover,
+#header ul.user li a:hover {
+  background: #600 !important;
+  color: #fff !important;
+}
+
+#header .search input[type="submit"],
+#header .search button {
+  background-image: linear-gradient(#fff, #ddd) !important;
+  color: #444 !important;
+  border: 1px solid #bbb !important;
+  border-radius: 0.25em !important;
+}
+
+#footer,
+#footer div,
+#footer ul,
+#footer li,
+#footer p,
+#footer .module,
+#footer .group,
+#footer .navigation,
+#footer .region,
+#footer h3,
+#footer .heading {
+  background: transparent !important;
+  background-image: none !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+
+#footer {
+  background: #900 !important;
+}
+
+#footer a,
+#footer a:link,
+#footer a:visited,
+#footer li a,
+#footer .actions a,
+#footer .navigation a {
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-bottom: 1px solid #fff !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+}
+
+#footer a:hover {
+  color: #fcc !important;
+  border-bottom-color: #fcc !important;
+}
+
+h4.heading a,
+.blurb h4.heading a,
+h4.heading a:link,
+.blurb h4.heading a:link,
+.work .heading a,
+.series .heading a,
+.bookmark .heading a,
+li.blurb h4.heading a {
+  color: #900 !important;
+  border-bottom: 1px solid #900 !important;
+}
+
+h4.heading a:visited,
+.blurb h4.heading a:visited {
+  color: #666 !important;
+  border-bottom-color: #666 !important;
+}
+
+h4.heading a:hover,
+.blurb h4.heading a:hover {
+  color: #000 !important;
+  border-bottom-color: #000 !important;
+}
+
+.blurb h4.heading a[rel="author"],
+h4.heading a[rel="author"] {
+  color: #900 !important;
+  border-bottom-color: #900 !important;
+}
+
+.tags a,
+.blurb .tags a,
+ul.tags a,
+.tags li a,
+.commas li a,
+.blurb .fandoms a,
+h5.fandoms a {
+  color: #000 !important;
+  border-bottom: 1px dotted #000 !important;
+}
+
+.tags a:hover,
+.blurb .tags a:hover {
+  color: #900 !important;
+  border-bottom-color: #900 !important;
+}
+
+.tags a:visited,
+.blurb .tags a:visited {
+  color: #555 !important;
+  border-bottom-color: #555 !important;
+}
+
+.tags li.relationships a,
+.tags li.warnings a {
+  background: #eee !important;
+}
+
+.blurb,
+li.blurb,
+.work.blurb,
+.bookmark.blurb,
+.listbox,
+.listbox.group,
+.listbox .index,
+.listbox .group,
+.listbox .heading {
+  border-color: #ddd !important;
+}
+
+.listbox {
+  border-color: #ccc !important;
+}
+
+#add_comment_placeholder,
+.add_comment,
+.comment_form,
+form.new_comment,
+form.new_comment fieldset,
+#comments_placeholder form,
+.comment.group,
+.comments .odd,
+.comments .even,
+.comment form,
+fieldset.comment,
+.new_comment {
+  background: #ddd !important;
+  background-image: none !important;
+  border-color: #ccc !important;
+  color: #2a2a2a !important;
+}
+
+#add_comment_placeholder .comment,
+#add_comment_placeholder fieldset,
+#add_comment_placeholder .group,
+form.new_comment .group,
+.new_comment .group {
+  background: #ddd !important;
+  border-color: #ccc !important;
+}
+
+.comment textarea,
+form.new_comment textarea,
+#add_comment_placeholder textarea,
+textarea {
+  background: #fff !important;
+  color: #2a2a2a !important;
+  border: 1px solid #bbb !important;
+}
+
+form.new_comment h4,
+form.new_comment .heading,
+form.new_comment .notice,
+form.new_comment p,
+form.new_comment label,
+#add_comment_placeholder .notice,
+#add_comment_placeholder p,
+#add_comment_placeholder h4 {
+  background: transparent !important;
+  color: #2a2a2a !important;
+}
+
+#comments_placeholder .thread li.comment,
+li.comment,
+.comment.group {
+  background: #fff !important;
+  border-color: #ddd !important;
+}
+
+#work-form,
+form#new_work,
+form.work,
+form#edit_work,
+.post.new,
+.post.edit,
+#main.works-new,
+#main.works-edit,
+fieldset,
+fieldset.work,
+fieldset.tags,
+.work.meta.group,
+.preface.group,
+dl.meta,
+dl.work.meta {
+  background: #ddd !important;
+  background-image: none !important;
+  border-color: #ccc !important;
+  color: #2a2a2a !important;
+}
+
+fieldset fieldset,
+fieldset dl,
+fieldset dd,
+fieldset dt,
+fieldset ul,
+fieldset li,
+fieldset .options,
+fieldset .group,
+dd.warning,
+dd.category,
+dd.rating,
+dl.meta dd,
+dl.meta dt {
+  background: #fff !important;
+  background-image: none !important;
+  border-color: #ccc !important;
+  box-shadow: none !important;
+}
+
+dt,
+dt label,
+dt.rating,
+dt.warning,
+dt.fandom,
+dt.category,
+label,
+legend,
+fieldset legend,
+fieldset h3,
+fieldset .heading,
+form .required,
+.required,
+abbr.required,
+span.required {
+  color: #2a2a2a !important;
+  background: transparent !important;
+  border-color: #ccc !important;
+}
+
+fieldset legend,
+fieldset h3.heading,
+.heading.landmark {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+select,
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+textarea {
+  background: #fff !important;
+  color: #2a2a2a !important;
+  border: 1px solid #bbb !important;
+}
+
+.notice,
+.caution,
+.comment_notice,
+#site-notice,
+.announcement,
+div.notice,
+p.notice,
+.flash {
+  border-color: #ccc !important;
+}
+
+.required-notice,
+.notice .required,
+p.required,
+.required.notice {
+  color: #2a2a2a !important;
+}
+
+fieldset > legend,
+fieldset legend,
+form fieldset > h3.heading {
+  background: #fff !important;
+  border: 1px solid #ddd !important;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25) !important;
+  padding: 0.25em 0.75em !important;
+  margin-left: 0.5em !important;
+  color: #2a2a2a !important;
+}
+
+dt.required,
+dt.required label,
+label.required,
+.required label,
+abbr.required,
+span.required,
+.required {
+  color: #900 !important;
+}
+
+.required ul label,
+.required ul li label,
+.required dd label,
+.required li label,
+fieldset.required ul li label,
+dd.required ul li label,
+dd.required label,
+fieldset ul li label,
+ul.options li label,
+.options li label,
+.options label {
+  color: #2a2a2a !important;
+}
+
+dt.required,
+dt.required label,
+dt.required abbr,
+dt.required span {
+  color: #900 !important;
+}
+
+dl.work.meta.group,
+.work.meta.group,
+dl.meta.group,
+dl.meta {
+  background: #fff !important;
+  background-image: none !important;
+  border: 1px solid #ddd !important;
+  box-shadow: none !important;
+}
+
+dl.work.meta.group dt,
+dl.work.meta.group dd,
+dl.meta dt,
+dl.meta dd,
+dl.stats dt,
+dl.stats dd,
+dl.stats {
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.preface.group,
+div.preface,
+.preface .summary,
+.preface .notes,
+.preface blockquote,
+.preface .module {
+  background: #fff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.preface .module,
+.preface .summary,
+.preface .notes {
+  border: none !important;
+}
